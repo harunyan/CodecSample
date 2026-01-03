@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CodecTest/CodecTest.vcxproj" Id="566b99ee-11fd-46a8-9657-95590f94b114" />
+  <Project Path="ConverterTest/ConverterTest.vcxproj" Id="cd43eb90-efda-4e37-a9f6-a4c591fc61d2">
+    <BuildDependency Project="CodecTest/CodecTest.vcxproj" />
+  </Project>
+</Solution>
